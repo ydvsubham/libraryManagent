@@ -1,0 +1,87 @@
+.member_cont{
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px red inset,
+                -1px -1px 2px red inset;
+    border-radius: 2px;
+    margin: 40px auto;
+}
+
+.member_head{
+    width: 100%;
+    background: #c9302c;
+    font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.add_books_cont{
+    width: 500px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #F25E5E;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.add_books_head{
+    width: 100%;
+    display: block;
+    background: #F25E5E;
+}
+
+.add_books_head h3{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 15px 15px;
+}
+
+.add_books_info label,.add_books_info input,.add_books_info select{
+    width: 86%;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.add_books_info input{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 8px auto;
+    padding: 6px 12px;
+}
+
+.add_books_info select{
+    width: 92%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 8px auto;
+    padding: 6px 12px;
+}
+
+.add_books_info input[type="submit"]{
+    width: auto;
+    background:  #c9302c;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 20px;
+}
+
+.add_books_info label{
+    margin-top: 14px ;
+}
+@media screen and (max-width: 600px){
+   .add_books_cont{
+        width: 95%;
+    }
+    .member_head{
+        font-size: 25px;
+    }
+    .member_cont{
+        margin: 20px auto;
+    }
+}

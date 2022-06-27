@@ -1,0 +1,7 @@
+@media screen and (max-width: 480px){
+	footer{
+		position: absolute;
+		bottom: 0;
+	}
+
+}
